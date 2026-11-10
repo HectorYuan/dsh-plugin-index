@@ -11,26 +11,56 @@
   "metadata": {
     "categories": {
       "market": {
-        "title": { "en": "Market & Discovery", "zh": "市场与发现" }
+        "title": {
+          "en": "Market & Discovery",
+          "zh": "市场与发现"
+        }
       },
       "agent": {
-        "title": { "en": "Agents", "zh": "智能体" }
+        "title": {
+          "en": "Agents",
+          "zh": "智能体"
+        }
       },
       "content": {
-        "title": { "en": "Content & Media", "zh": "内容与媒体" }
+        "title": {
+          "en": "Content & Media",
+          "zh": "内容与媒体"
+        }
       },
       "dev": {
-        "title": { "en": "Development", "zh": "开发工具" }
+        "title": {
+          "en": "Development",
+          "zh": "开发工具"
+        }
       }
     },
     "labels": {
-      "official": { "title": { "en": "Official", "zh": "官方" } },
-      "experimental": { "title": { "en": "Experimental", "zh": "实验性" } },
-      "community": { "title": { "en": "Community", "zh": "社区" } }
+      "official": {
+        "title": {
+          "en": "Official",
+          "zh": "官方"
+        }
+      },
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "zh": "实验性"
+        }
+      },
+      "community": {
+        "title": {
+          "en": "Community",
+          "zh": "社区"
+        }
+      }
     },
     "sortKeys": {
       "recommended": {
-        "title": { "en": "Recommendation", "zh": "推荐度" },
+        "title": {
+          "en": "Recommendation",
+          "zh": "推荐度"
+        },
         "order": "desc"
       }
     }
@@ -38,7 +68,10 @@
   "plugins": [
     {
       "name": "@deepseek-ai/dsh-experimental-plugin-market-bundle",
-      "title": { "en": "Custom Plugin Indexes", "zh": "自定义插件索引" },
+      "title": {
+        "en": "Custom Plugin Indexes",
+        "zh": "自定义插件索引"
+      },
       "description": {
         "en": "Adds the Discover tab to the Plugins page so you can browse and install bundles from the indexes you configure.",
         "zh": "为插件页增加「发现」标签：浏览并一键安装你配置的插件索引中的组合包。"
@@ -47,22 +80,40 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-plugin-market-bundle",
       "metadata": {
         "category": "market",
-        "labels": ["official", "experimental"],
-        "keywords": ["plugin index", "market", "discover", "插件索引", "发现"],
-        "sortKeys": { "recommended": 100 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "plugin index",
+          "market",
+          "discover",
+          "插件索引",
+          "发现"
+        ],
+        "sortKeys": {
+          "recommended": 100
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
-      "title": { "en": "Agent Teams", "zh": "智能体团队" },
+      "title": {
+        "en": "Agent Teams",
+        "zh": "智能体团队"
+      },
       "description": {
         "en": "Multi-agent collaboration with a Team Lead, teammates, shared tasks and a dedicated Web UI.",
         "zh": "多智能体协作：Team Lead 与队友、共享任务板与 Agent Teams Web 界面。"
@@ -71,22 +122,39 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-agent-team-profile",
       "metadata": {
         "category": "agent",
-        "labels": ["official", "experimental"],
-        "keywords": ["agent team", "collaboration", "智能体团队", "协作"],
-        "sortKeys": { "recommended": 95 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "agent team",
+          "collaboration",
+          "智能体团队",
+          "协作"
+        ],
+        "sortKeys": {
+          "recommended": 95
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
-      "title": { "en": "Voice Input", "zh": "语音输入" },
+      "title": {
+        "en": "Voice Input",
+        "zh": "语音输入"
+      },
       "description": {
         "en": "Experimental voice input backed by a local SenseVoice model; the runtime downloads on first use.",
         "zh": "基于本地 SenseVoice 模型的实验性语音输入，首次使用时自动下载运行时。"
@@ -95,22 +163,39 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-voice-input-bundle",
       "metadata": {
         "category": "agent",
-        "labels": ["official", "experimental"],
-        "keywords": ["voice", "speech", "sensevoice", "语音输入"],
-        "sortKeys": { "recommended": 80 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "voice",
+          "speech",
+          "sensevoice",
+          "语音输入"
+        ],
+        "sortKeys": {
+          "recommended": 80
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-forge-bundle",
-      "title": { "en": "Change Requests Panel", "zh": "代码变更面板" },
+      "title": {
+        "en": "Change Requests Panel",
+        "zh": "代码变更面板"
+      },
       "description": {
         "en": "Change-request panel and worktree option for Sessions in Git repositories.",
         "zh": "为 Git 仓库中的会话提供代码变更请求面板与 worktree 选项。"
@@ -119,22 +204,39 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-forge-bundle",
       "metadata": {
         "category": "dev",
-        "labels": ["official", "experimental"],
-        "keywords": ["forge", "git", "pull request", "代码变更"],
-        "sortKeys": { "recommended": 75 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "forge",
+          "git",
+          "pull request",
+          "代码变更"
+        ],
+        "sortKeys": {
+          "recommended": 75
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-auto-review",
-      "title": { "en": "Auto Review", "zh": "自动评审" },
+      "title": {
+        "en": "Auto Review",
+        "zh": "自动评审"
+      },
       "description": {
         "en": "Per-tool LLM authorization review for the DeepSeek Harness Auto permission preset.",
         "zh": "为 Auto 权限预设提供的逐工具 LLM 授权评审。"
@@ -143,22 +245,39 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-auto-review",
       "metadata": {
         "category": "dev",
-        "labels": ["official", "experimental"],
-        "keywords": ["permission", "review", "权限", "评审"],
-        "sortKeys": { "recommended": 70 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "permission",
+          "review",
+          "权限",
+          "评审"
+        ],
+        "sortKeys": {
+          "recommended": 70
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-session-search",
-      "title": { "en": "Session Search", "zh": "会话检索" },
+      "title": {
+        "en": "Session Search",
+        "zh": "会话检索"
+      },
       "description": {
         "en": "Tools that let agents search and read earlier sessions from the current workspace.",
         "zh": "让智能体检索并阅读当前工作区中的历史会话。"
@@ -167,22 +286,38 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-session-search",
       "metadata": {
         "category": "dev",
-        "labels": ["official", "experimental"],
-        "keywords": ["session", "search", "会话检索"],
-        "sortKeys": { "recommended": 65 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "session",
+          "search",
+          "会话检索"
+        ],
+        "sortKeys": {
+          "recommended": 65
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
-      "title": { "en": "Persistent Terminal", "zh": "常驻终端" },
+      "title": {
+        "en": "Persistent Terminal",
+        "zh": "常驻终端"
+      },
       "description": {
         "en": "Keep shell processes alive across tool calls.",
         "zh": "让 shell 进程在多次工具调用之间保持存活。"
@@ -191,22 +326,38 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-terminal-bundle",
       "metadata": {
         "category": "dev",
-        "labels": ["official", "experimental"],
-        "keywords": ["terminal", "shell", "终端"],
-        "sortKeys": { "recommended": 60 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "terminal",
+          "shell",
+          "终端"
+        ],
+        "sortKeys": {
+          "recommended": 60
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "dsh-image-generation",
-      "title": { "en": "Image Generation", "zh": "图像生成" },
+      "title": {
+        "en": "Image Generation",
+        "zh": "图像生成"
+      },
       "description": {
         "en": "Shared OpenAI and ByteDance image generation for conversations, presentations and documents (community).",
         "zh": "为对话、演示文稿和文档提供 OpenAI 与 ByteDance 图像生成能力（非官方）。"
@@ -215,22 +366,37 @@
       "homepage": "https://www.npmjs.com/package/dsh-image-generation",
       "metadata": {
         "category": "content",
-        "labels": ["community"],
-        "keywords": ["image", "generation", "图像生成"],
-        "sortKeys": { "recommended": 55 }
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "image",
+          "generation",
+          "图像生成"
+        ],
+        "sortKeys": {
+          "recommended": 55
+        }
       },
       "versions": [
         {
           "version": "0.1.3",
           "publishTimestamp": 1760000000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
-      "title": { "en": "Reasoning Translation", "zh": "推理翻译" },
+      "title": {
+        "en": "Reasoning Translation",
+        "zh": "推理翻译"
+      },
       "description": {
         "en": "Experimental machine translation of expanded reasoning.",
         "zh": "对展开的推理过程进行机器翻译。"
@@ -239,22 +405,39 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-cot-translation-bundle",
       "metadata": {
         "category": "agent",
-        "labels": ["official", "experimental"],
-        "keywords": ["translation", "reasoning", "翻译", "推理"],
-        "sortKeys": { "recommended": 50 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "translation",
+          "reasoning",
+          "翻译",
+          "推理"
+        ],
+        "sortKeys": {
+          "recommended": 50
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-badge-skill-bundle",
-      "title": { "en": "Powered-by Badge", "zh": "输出徽章" },
+      "title": {
+        "en": "Powered-by Badge",
+        "zh": "输出徽章"
+      },
       "description": {
         "en": "Let agents add a powered-by-dsh badge to documents, pull requests and other outputs.",
         "zh": "让智能体在文档、Pull Request 等输出中加上 powered by dsh 徽章。"
@@ -263,22 +446,38 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-badge-skill-bundle",
       "metadata": {
         "category": "content",
-        "labels": ["official", "experimental"],
-        "keywords": ["badge", "skill", "徽章"],
-        "sortKeys": { "recommended": 45 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "badge",
+          "skill",
+          "徽章"
+        ],
+        "sortKeys": {
+          "recommended": 45
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
-      "title": { "en": "Ralph", "zh": "重复任务" },
+      "title": {
+        "en": "Ralph",
+        "zh": "重复任务"
+      },
       "description": {
         "en": "Run explicitly requested repeated work with fresh agents.",
         "zh": "用全新的智能体显式重复执行任务。"
@@ -287,22 +486,38 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-ralph-bundle",
       "metadata": {
         "category": "agent",
-        "labels": ["official", "experimental"],
-        "keywords": ["ralph", "repeat", "重复任务"],
-        "sortKeys": { "recommended": 40 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "ralph",
+          "repeat",
+          "重复任务"
+        ],
+        "sortKeys": {
+          "recommended": 40
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-session-titles-bundle",
-      "title": { "en": "Session Titles", "zh": "会话标题刷新" },
+      "title": {
+        "en": "Session Titles",
+        "zh": "会话标题刷新"
+      },
       "description": {
         "en": "Refresh session titles as new human prompts arrive.",
         "zh": "在有新的用户提示时刷新会话标题。"
@@ -311,22 +526,38 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-session-titles-bundle",
       "metadata": {
         "category": "agent",
-        "labels": ["official", "experimental"],
-        "keywords": ["session", "title", "会话标题"],
-        "sortKeys": { "recommended": 35 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "session",
+          "title",
+          "会话标题"
+        ],
+        "sortKeys": {
+          "recommended": 35
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-inspector-profile",
-      "title": { "en": "Inspector", "zh": "调试检查器" },
+      "title": {
+        "en": "Inspector",
+        "zh": "调试检查器"
+      },
       "description": {
         "en": "Optional Web bundle for raw Session logs and Chat node inspection.",
         "zh": "查看原始会话日志与 Chat 节点的可选 Web 组合包。"
@@ -335,22 +566,38 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-inspector-profile",
       "metadata": {
         "category": "dev",
-        "labels": ["official", "experimental"],
-        "keywords": ["inspector", "debug", "调试"],
-        "sortKeys": { "recommended": 30 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "inspector",
+          "debug",
+          "调试"
+        ],
+        "sortKeys": {
+          "recommended": 30
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
     },
     {
       "name": "@deepseek-ai/dsh-experimental-liveshare",
-      "title": { "en": "LiveShare", "zh": "会话共享" },
+      "title": {
+        "en": "LiveShare",
+        "zh": "会话共享"
+      },
       "description": {
         "en": "Opt-in LiveShare host bundle that shares a Session through a separate Relay, with forking and attachment uploads as switches.",
         "zh": "通过独立 Relay 共享会话（查看或受限写入），支持分叉与附件上传。"
@@ -359,18 +606,445 @@
       "homepage": "https://www.npmjs.com/package/@deepseek-ai/dsh-experimental-liveshare",
       "metadata": {
         "category": "agent",
-        "labels": ["official", "experimental"],
-        "keywords": ["liveshare", "share", "共享会话"],
-        "sortKeys": { "recommended": 25 }
+        "labels": [
+          "official",
+          "experimental"
+        ],
+        "keywords": [
+          "liveshare",
+          "share",
+          "共享会话"
+        ],
+        "sortKeys": {
+          "recommended": 25
+        }
       },
       "versions": [
         {
           "version": "0.2.2-alpha.2",
           "publishTimestamp": 1761606000,
-          "source": { "type": "npm" },
-          "engines": { "dsh": "0.2.2-alpha.2" }
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
         }
       ]
+    },
+    {
+      "name": "better-dsh",
+      "title": {
+        "en": "Better DSH",
+        "zh": "更好用的 DSH"
+      },
+      "description": {
+        "en": "A bundle that makes DSH ready for serious coding tasks.",
+        "zh": "让 DSH 胜任严肃编码任务的组合增强包。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/better-dsh",
+      "metadata": {
+        "category": "dev",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "coding",
+          "workflow",
+          "编码"
+        ],
+        "sortKeys": {
+          "recommended": 22
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.5",
+          "publishTimestamp": 1794083747,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/pgmi-builds/super-dsh"
+      }
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "title": {
+        "en": "Better Sidebar",
+        "zh": "增强侧边栏"
+      },
+      "description": {
+        "en": "Better Sidebar for DSH with a file tree, editor and changes view.",
+        "zh": "为 DSH 提供文件树、编辑器与变更视图的增强侧边栏。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/dsh-better-sidebar",
+      "metadata": {
+        "category": "dev",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "sidebar",
+          "file tree",
+          "侧边栏"
+        ],
+        "sortKeys": {
+          "recommended": 21
+        }
+      },
+      "versions": [
+        {
+          "version": "0.30.1",
+          "publishTimestamp": 1793848027,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
+      }
+    },
+    {
+      "name": "dsh-config-manager",
+      "title": {
+        "en": "Config Manager",
+        "zh": "配置管理器"
+      },
+      "description": {
+        "en": "Backup, restore, export, import, migrate and sync DSH configuration.",
+        "zh": "备份、恢复、导出、导入与同步 DSH 配置。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/dsh-config-manager",
+      "metadata": {
+        "category": "dev",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "config",
+          "backup",
+          "配置"
+        ],
+        "sortKeys": {
+          "recommended": 20
+        }
+      },
+      "versions": [
+        {
+          "version": "0.7.0",
+          "publishTimestamp": 1794261365,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/xiajiajun516/dsh-config-manager"
+      }
+    },
+    {
+      "name": "dsh-token-optimizer",
+      "title": {
+        "en": "Token Optimizer",
+        "zh": "Token 优化器"
+      },
+      "description": {
+        "en": "Deterministic, recoverable tool-result compression that saves context.",
+        "zh": "确定、可恢复的工具结果压缩，降低上下文占用。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/dsh-token-optimizer",
+      "metadata": {
+        "category": "agent",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "token",
+          "context",
+          "上下文"
+        ],
+        "sortKeys": {
+          "recommended": 19
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.5",
+          "publishTimestamp": 1793366969,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/Snow-ea/dsh-token-optimizer"
+      }
+    },
+    {
+      "name": "dsh-plan-and-execute",
+      "title": {
+        "en": "Plan & Execute",
+        "zh": "计划与执行"
+      },
+      "description": {
+        "en": "Plan-and-execute orchestration over the Responses API.",
+        "zh": "基于 Responses API 的 plan-and-execute 编排。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/dsh-plan-and-execute",
+      "metadata": {
+        "category": "agent",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "plan",
+          "orchestration",
+          "计划"
+        ],
+        "sortKeys": {
+          "recommended": 18
+        }
+      },
+      "versions": [
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1790216767,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/jimmyzhang219/dsh-plan-and-execute"
+      }
+    },
+    {
+      "name": "dsh-session-fork",
+      "title": {
+        "en": "Session Fork",
+        "zh": "会话分叉"
+      },
+      "description": {
+        "en": "Git-like conversation forking that lets you branch and compare threads.",
+        "zh": "类似 Git 的对话分叉，可开分支对比不同走向。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/dsh-session-fork",
+      "metadata": {
+        "category": "agent",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "fork",
+          "branch",
+          "分叉"
+        ],
+        "sortKeys": {
+          "recommended": 17
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1792744692,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "billion-context-dsh",
+      "title": {
+        "en": "Billion Context",
+        "zh": "超大上下文"
+      },
+      "description": {
+        "en": "Active Context Pruning (ACP) for the DeepSeek Harness.",
+        "zh": "主动上下文裁剪（ACP），长任务下保持有效上下文。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/billion-context-dsh",
+      "metadata": {
+        "category": "agent",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "context",
+          "pruning",
+          "上下文"
+        ],
+        "sortKeys": {
+          "recommended": 16
+        }
+      },
+      "versions": [
+        {
+          "version": "0.2.27",
+          "publishTimestamp": 1791454193,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-timeline",
+      "title": {
+        "en": "Timeline",
+        "zh": "会话时间线"
+      },
+      "description": {
+        "en": "Timeline navigation for DeepSeek Harness sessions.",
+        "zh": "为 DSL 会话提供时间线视图与跳转。"
+      },
+      "author": "community",
+      "homepage": "https://www.npmjs.com/package/dsh-timeline",
+      "metadata": {
+        "category": "dev",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "timeline",
+          "history",
+          "时间线"
+        ],
+        "sortKeys": {
+          "recommended": 15
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1789056387,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/houyanchao/dsh-timeline"
+      }
+    },
+    {
+      "name": "dsh-doctor",
+      "title": {
+        "en": "Doctor",
+        "zh": "诊断工具"
+      },
+      "description": {
+        "en": "Health diagnostics for the DSH environment and its dependencies.",
+        "zh": "检查 DSH 运行环境与依赖健康的诊断插件。"
+      },
+      "author": "astra3294",
+      "homepage": "https://www.npmjs.com/package/dsh-doctor",
+      "metadata": {
+        "category": "dev",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "doctor",
+          "diagnostics",
+          "诊断"
+        ],
+        "sortKeys": {
+          "recommended": 14
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.3",
+          "publishTimestamp": 1786810716,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/astra3294/dsh-doctor"
+      }
+    },
+    {
+      "name": "dsh-web-mobile",
+      "title": {
+        "en": "Web Mobile",
+        "zh": "移动端界面"
+      },
+      "description": {
+        "en": "Use DSH from a phone through the browser.",
+        "zh": "通过浏览器在手机端使用 DSH。"
+      },
+      "author": "mexiaosh",
+      "homepage": "https://www.npmjs.com/package/dsh-web-mobile",
+      "metadata": {
+        "category": "dev",
+        "labels": [
+          "community"
+        ],
+        "keywords": [
+          "mobile",
+          "web",
+          "移动端"
+        ],
+        "sortKeys": {
+          "recommended": 13
+        }
+      },
+      "versions": [
+        {
+          "version": "3.3.5",
+          "publishTimestamp": 1794118551,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.2.2-alpha.2"
+          }
+        }
+      ],
+      "repository": {
+        "url": "https://github.com/mexiaosqwq/dsh-web-mobile"
+      }
     }
   ]
 }
